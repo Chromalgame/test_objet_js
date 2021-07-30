@@ -10,6 +10,7 @@ const rock = new Spell("Rock", -10, 10, 1, 1);
 
 // Défensif
 const heal = new Spell("Heal", +10, 10, 1, 1);
+const shield = new Spell("Shield", +10, 10, 1, 1);
 
 // console.log(``);
 
@@ -60,7 +61,9 @@ player.addSpell(fire);
 player.addSpell(ice);
 player.addSpell(storm);
 player.addSpell(rock);
-player.addSpell(heal);player.addSpell(heal);
+player.addSpell(heal);
+
+export const enemi = new Player("Mechant", "resource/chevalier.png",100, 100, 100, 1);
 
 // console.log(`---- PLAYER ----`);
 // console.log(`Name : ${player.getName()}`);
